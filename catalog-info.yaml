@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: blank.prototype.kit
-  title: Blank-Prototype-Kit
+  name: pc.eligibility.verification
+  title: Pc-Eligibility-Verification
   description: |
-    A blank prototype kit version 13.18.1 with DWP Frontend installed
+    Eligibility Verification Service - Pension Credit - Prototype
 
   annotations:
     gitlab.com/project-slug: dwp/user-centred-design/blank-prototype-kit
@@ -13,8 +13,8 @@ metadata:
     dwp.gov.uk/version: 1.0.0
     dwp.gov.uk/license: unknown
 
-    dwp.gov.uk/last-verified.by: Ben Raine
-    dwp.gov.uk/last-verified.on: 2026-01-21
+    dwp.gov.uk/last-verified.by: Ross Brown
+    dwp.gov.uk/last-verified.on: 2026-01-30
 
     dwp.gov.uk/open-source.approved: "true"
     dwp.gov.uk/open-source.location: none
@@ -31,7 +31,7 @@ metadata:
   links:
     - icon: externalLink
       title: Repository
-      url: https://gitlab.com/dwp/user-centred-design/blank-prototype-kit
+      url: https://gitlab.com/dwp/user-centred-design/pc-eligibility-verification
 
 spec:
   owner: group:default/backstage.group.user-centred-design
